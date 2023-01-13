@@ -1,4 +1,4 @@
-const allTeachersNotices = require('./notice')
+const {classNotices, generalNotices} = require('./notice')
 const allUsersChats = require('./inbox')
 
-module.exports = {allTeachersNotices, allUsersChats}
+module.exports = {classNotices, generalNotices, allUsersChats}

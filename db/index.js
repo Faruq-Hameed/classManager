@@ -1,5 +1,9 @@
-const {allTeachersNotices, allUsersChats} = require('./Messages')
-const users = require('./Users')
+const { classNotices, generalNotices, allUsersChats } = require('./Messages')
+const { teachers, students } = require('./users')
 const courses = require('./courses')
-const {assignments, scores, submissions} = require('./assignments')
+const { assignments, scores, submissions } = require('./assignments')
 
+module.exports = {
+    classNotices, generalNotices, allUsersChats,
+    teachers, students, courses, assignments, scores, submissions
+}

@@ -1,0 +1,1 @@
+//students cannot edit submissions but teachers can edit scores for any student
